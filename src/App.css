@@ -1,0 +1,44 @@
+body {
+  background-color: black;
+
+  font-family: "Roboto", sans-serif;
+}
+
+.date-picking {
+  margin: 0px auto;
+  margin-top: 25px;
+  padding: 10px;
+  display: flex;
+  width: fit-content;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.container {
+  /* width: 70%; */
+  max-width: 800px;
+  /* height: 100%; */
+  border: 0.3px solid rgb(112, 108, 108);
+  margin: 0px auto;
+  padding-top: 10px;
+  color: white;
+}
+
+.loader {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 200px;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}

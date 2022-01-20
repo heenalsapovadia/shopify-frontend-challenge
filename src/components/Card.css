@@ -1,0 +1,76 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.card-copyright {
+  padding: 0;
+  margin: 0;
+  color: rgb(255, 122, 0);
+}
+.card-title,
+.card-copyright {
+  margin-left: 10px;
+}
+.card-date {
+  margin: 0;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  color: rgb(83, 100, 113);
+}
+.card-image {
+  /* align-self: center; */
+  max-width: 760px;
+  margin: 0px auto;
+  border-radius: 17px;
+}
+
+.actions {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15px;
+}
+.action {
+  display: flex;
+  flex-direction: row;
+  /* width: 65px; */
+  justify-content: space-between;
+  margin: 0px auto;
+  margin-top: 10px;
+  /* padding: 10px; */
+  transition: 0.1s ease-in;
+  cursor: pointer;
+}
+.action span {
+  font-weight: 300;
+}
+.action-icon {
+  padding-top: 4px;
+}
+.hover-bg {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 90px;
+  /* align-self: center; */
+  background-color: rgba(189, 101, 101, 0.836);
+  z-index: -1;
+  transform: scaleX(0);
+}
+.like:hover {
+  color: rgb(233, 52, 52);
+}
+.comment:hover {
+  color: rgb(57, 224, 57);
+}
+/* .comment:hover .hover-bg,
+.like:hover .hover-bg {
+  transform: scaleX(1);
+} */
+.expand:hover {
+  color: rgb(38, 96, 221);
+}
+.card-explanation {
+  padding: 0px 10px;
+}
