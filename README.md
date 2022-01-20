@@ -7,7 +7,7 @@ We need a webpage that can pull images, and allow the user to “like” and “
 
 ## Tech Stack 
 
-### Front-End (client folder):
+### Front-End:
 * React - Framework
 * CSS - Styling
 * Material-UI
